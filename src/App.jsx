@@ -15,9 +15,9 @@ setQueue(queue.map(customer=>
 ))
 }
 const removeFromQueue =(id)=>{
-  setQueue(queue.filter(customer=>{
+  setQueue(queue.filter(customer=>
     customer.id!==id
-  }))
+  ))
 }
   return (
 <>
